@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
     "server": "./build_css.sh && node index.js"
   },
   "author": "",
@@ -12,6 +12,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "forever": "^2.0.0",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "path": "^0.12.7",
+    "require": "^2.4.20",
+    "underscore": "^1.10.2"
   }
 }
